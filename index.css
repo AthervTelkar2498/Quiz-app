@@ -1,0 +1,35 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(37, 35, 34, 0.445);
+ }
+ .container{
+    width: 440px;
+    margin-left: 33%;
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 11px;
+    border: solid black;
+ }
+ .head{
+    text-align: center;
+    padding: 11px;
+    font-size: 30px;
+ }
+ .quiz{
+    margin-left: 11px;
+ }
+ .btn{
+    text-align: center;
+    color: rgb(106, 51, 170);
+    padding: 11px;
+ }
+ button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(24, 11, 71);
+    color: white;
+    font-size: 24px;
+    border: curve;
+    outline: none;
+    border-radius: 2px;
+ }
