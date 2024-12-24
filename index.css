@@ -1,35 +1,47 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: rgba(37, 35, 34, 0.445);
- }
- .container{
-    width: 440px;
-    margin-left: 33%;
-    background-color: #fff;
-    margin-top: 5px;
-    padding: 11px;
-    border: solid black;
- }
- .head{
-    text-align: center;
-    padding: 11px;
-    font-size: 30px;
- }
- .quiz{
-    margin-left: 11px;
- }
- .btn{
-    text-align: center;
-    color: rgb(106, 51, 170);
-    padding: 11px;
- }
- button{
-    width: 140px;
-    height: 40px;
-    background-color: rgb(24, 11, 71);
-    color: white;
-    font-size: 24px;
-    border: curve;
-    outline: none;
-    border-radius: 2px;
- }
+/* Setting the global font and background for the entire webpage */
+body {
+    font-family: 'Open Sans', sans-serif; /* Applies a clean, modern font to the text */
+    background-color: rgba(37, 35, 34, 0.445); /* Sets a semi-transparent dark background for a subtle look */
+}
+
+/* Styling the container that holds the quiz content */
+.container {
+    width: 440px; /* Specifies the width of the container */
+    margin-left: 33%; /* Centers the container horizontally */
+    background-color: #fff; /* Sets a white background for better visibility */
+    margin-top: 5px; /* Adds some space above the container */
+    padding: 11px; /* Adds inner spacing within the container */
+    border: solid black; /* Adds a black border around the container */
+}
+
+/* Styling the quiz heading */
+.head {
+    text-align: center; /* Centers the text inside the heading */
+    padding: 11px; /* Adds spacing inside the heading area */
+    font-size: 30px; /* Sets a larger font size for prominence */
+}
+
+/* Styling the quiz questions section */
+.quiz {
+    margin-left: 11px; /* Adds a small left margin for spacing */
+}
+
+/* Styling the button container */
+.btn {
+    text-align: center; /* Centers the button inside the container */
+    color: rgb(106, 51, 170); /* Sets a purple color for the text */
+    padding: 11px; /* Adds spacing around the button area */
+}
+
+/* Styling the buttons */
+button {
+    width: 140px; /* Sets a fixed width for the buttons */
+    height: 40px; /* Sets a fixed height for the buttons */
+    background-color: rgb(24, 11, 71); /* Sets a dark purple background for the buttons */
+    color: white; /* Makes the button text white for contrast */
+    font-size: 24px; /* Increases the font size for better readability */
+    border: curve; /* Adds a decorative curve to the button's border (corrected below) */
+    outline: none; /* Removes the default focus outline when the button is selected */
+    border-radius: 2px; /* Adds slightly rounded corners to the buttons */
+}
+   
